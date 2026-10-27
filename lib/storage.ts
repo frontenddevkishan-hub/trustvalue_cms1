@@ -2,25 +2,20 @@ import fs from "node:fs";
 import path from "node:path";
 import { SectorConfig, BlogPost, AuditEvent, Provider, Offering, ResolvedCategory } from "./types";
 
-// Determine content directory: works whether running in /cms or project root
+// Determine content directory: statically scoped to avoid dynamic filesystem tracing
 function findContentDir(): string {
-  const candidates = [
-    path.join(process.cwd(), "..", "content"),
-    path.join(process.cwd(), "content"),
-    path.join(__dirname, "../../../content"),
-  ];
-
-  for (const c of candidates) {
-    if (fs.existsSync(c)) {
-      return c;
-    }
+  const localDir = path.join(process.cwd(), "content");
+  if (fs.existsSync(localDir)) {
+    return localDir;
   }
-  // fallback to local content dir inside cms
-  const localFallback = path.join(process.cwd(), "content");
-  if (!fs.existsSync(localFallback)) {
-    fs.mkdirSync(localFallback, { recursive: true });
+  const nestedCmsDir = path.join(process.cwd(), "cms", "content");
+  if (fs.existsSync(nestedCmsDir)) {
+    return nestedCmsDir;
   }
-  return localFallback;
+  if (!fs.existsSync(localDir)) {
+    fs.mkdirSync(localDir, { recursive: true });
+  }
+  return localDir;
 }
 
 const CONTENT_DIR = findContentDir();

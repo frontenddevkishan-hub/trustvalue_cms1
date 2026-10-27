@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  output: "standalone",
+  // output: 'standalone' is omitted so Vercel build generates standard server output and avoids ENOENT next-server.js.nft.json
   async headers() {
     return [
       {
