@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "irdai-3-year-incontestability-rule-explained",
+    "title": "Section 45 Explained: Why Life Insurers Cannot Reject Claims After 3 Years",
+    "sector": "insurance",
+    "readTime": "6 min read",
+    "summary": "How the Insurance Act Section 45 protects nominees and makes life policies incontestable after 36 months.",
+    "directAnswer": "Under Section 45 of the Insurance Act 1938, once a life insurance policy completes 3 consecutive years from issuance or revival, the insurer is legally barred from questioning or rejecting any death claim on ANY ground, including fraud or non-disclosure of medical facts.",
+    "featuredImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80",
+    "categoryId": "cat-insurance",
+    "views": 4210,
+    "commentsCount": 18,
+    "indexedAt": "2026-03-21T08:00:00.000Z",
+    "relatedSlugs": ["nabh-cashless-hospital-turnaround-times", "rera-carpet-area-vs-built-up-guide"],
+    "body": "Under Section 45 of the Insurance Act 1938 (amended in 2015), no policy of life insurance can be called in question on any ground whatsoever, including fraud or non-disclosure of material facts, after the expiry of three continuous years from the date of issuance or revival.\n\n### Key Protections Under Section 45:\n1. **Absolute Incontestability**: Once 36 continuous months lapse, the insurer forfeits the legal right to repudiate a death claim.\n2. **Shifted Burden of Proof**: During the first 3 years, the insurer bears strict legal burden to prove deliberate, material misstatement.\n3. **Nominee Safeguards**: Eliminates harassment of surviving beneficiaries during claim settlement periods.",
+    "faqData": [
+      {
+        "question": "Can an insurer repudiate a claim after 3 years if fraud is discovered?",
+        "answer": "No. Under the amended Section 45 (effective 2015), the 3-year bar is absolute. Even if intentional fraud or omission is alleged, no repudiation is legally permissible once 36 continuous months pass."
+      },
+      {
+        "question": "Does the 3-year clock reset if the policy lapses and is subsequently revived?",
+        "answer": "Yes. If a policy lapses due to non-payment of premiums and is later revived, the 3-year period begins afresh from the official date of revival."
+      },
+      {
+        "question": "What happens to premiums paid if a claim is rejected within the first 3 years?",
+        "answer": "If repudiated for fraud within 3 years, premiums may be forfeited; however, if rejected for misstatement without fraudulent intent, the insurer must refund the premiums collected."
+      }
+    ],
+    "status": "published",
+    "author": "Dr. Aris Thorne",
+    "createdAt": "2026-03-15T10:00:00.000Z",
+    "updatedAt": "2026-03-20T14:30:00.000Z",
+    "publishedAt": "2026-03-20T14:30:00.000Z",
+    "seo": {
+      "title": "Section 45 IRDAI Incontestability Rule | TrustValue Legal Audit",
+      "description": "Comprehensive analysis of Section 45 of the Insurance Act 1938: why insurers cannot repudiate claims after 3 years.",
+      "focusKeyword": "Section 45",
+      "keywords": ["IRDAI", "Insurance Act", "Incontestability", "Life Insurance Claims", "Section 45"],
+      "schemaType": "FAQPage"
+    }
+  },
+  {
+    "slug": "rera-carpet-area-vs-built-up-guide",
+    "title": "MahaRERA Carpet Area Standard: How to Avoid Paying for Balcony & Utility Air",
+    "sector": "real-estate",
+    "readTime": "8 min read",
+    "summary": "Clear guide on statutory carpet area measurements, RERA escrow protections, and penalty interest for delayed possession.",
+    "directAnswer": "Under RERA legislation, developers are legally obligated to quote and sell units strictly based on RERA Net Usable Carpet Area. Selling on super built-up area or loaded square footage is a punishable statutory violation across all Indian jurisdictions.",
+    "featuredImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+    "categoryId": "cat-realestate",
+    "views": 2980,
+    "commentsCount": 12,
+    "indexedAt": "2026-04-03T10:30:00.000Z",
+    "relatedSlugs": ["irdai-3-year-incontestability-rule-explained"],
+    "body": "Under RERA legislation across all Indian states, builders are legally prohibited from selling apartments on super built-up or loaded square footage. Every transaction must be calculated exclusively on usable net carpet area.\n\n### What Counts as Usable Carpet Area:\n- Net usable floor area of an apartment, excluding the area covered by external walls.\n- Areas under internal partition walls are included.\n- Exclusive balconies or verandahs must be priced and reported as distinct line items.",
+    "faqData": [
+      {
+        "question": "What is the difference between RERA Carpet Area and Super Built-Up Area?",
+        "answer": "RERA Carpet Area measures actual usable internal floor space between walls. Super Built-Up includes common areas (lobbies, staircases, lifts, clubhouses) marked up by 25-45% loading."
+      },
+      {
+        "question": "Can a builder change the layout and reduce carpet area after booking?",
+        "answer": "No. Under RERA Section 14, any layout alteration requires prior written consent from at least two-thirds of the allottees who booked apartments in that project."
+      }
+    ],
+    "status": "published",
+    "author": "Kavita Rao",
+    "createdAt": "2026-04-01T09:15:00.000Z",
+    "updatedAt": "2026-04-02T11:00:00.000Z",
+    "publishedAt": "2026-04-02T11:00:00.000Z",
+    "seo": {
+      "title": "MahaRERA Carpet Area Guide 2026 | TrustValue Real Estate Audit",
+      "description": "Don't pay for loaded super built-up square footage. Understand exact RERA net usable carpet area legal calculations.",
+      "focusKeyword": "Carpet Area",
+      "keywords": ["MahaRERA", "Carpet Area", "Real Estate Law", "Super Built Up", "Homebuyer Protection"],
+      "schemaType": "FAQPage"
+    }
+  },
+  {
+    "slug": "nabh-cashless-hospital-turnaround-times",
+    "title": "Cashless Hospitalization Standards: What NABH Accreditations Mean for Your Discharge",
+    "sector": "healthcare",
+    "readTime": "5 min read",
+    "summary": "Step-by-step breakdown of cashless pre-authorization, TPA query resolution limits, and hospital repudiation appeals.",
+    "directAnswer": "IRDAI Master Circular mandates that insurance TPAs must grant initial cashless pre-authorization within 60 minutes and finalize discharge clearance within 180 minutes of hospital billing submission.",
+    "featuredImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+    "categoryId": "cat-healthcare",
+    "views": 1845,
+    "commentsCount": 7,
+    "indexedAt": "2026-05-13T12:00:00.000Z",
+    "relatedSlugs": ["irdai-3-year-incontestability-rule-explained"],
+    "body": "NABH and JCI accredited hospital networks adhere to strict turnaround protocols for insurer cashless desk coordination. Learn how patient discharge settlement times are capped under standard regulatory operating procedures.\n\n### SLA Standards:\n- Pre-authorization response within 60 minutes of submission.\n- Final discharge authorization within 120 minutes of complete medical file clearance.\n- Direct TPA escalation desk accessible 24/7.",
+    "faqData": [
+      {
+        "question": "What is the penalty if a TPA takes more than 3 hours for discharge approval?",
+        "answer": "Under IRDAI's revised master guidelines, insurers face regulatory fines and are barred from holding the patient or imposing hospital room rent overstays on the policyholder for TPA processing delays."
+      },
+      {
+        "question": "Can a hospital refuse cashless treatment if they are in the GIPSA / ROHINI network?",
+        "answer": "No. Network hospitals bound by standard service level agreements cannot deny cashless admission to eligible active policyholders without documented technical or exclusion grounds."
+      }
+    ],
+    "status": "published",
+    "author": "Dr. Sameer Joshi",
+    "createdAt": "2026-05-10T08:00:00.000Z",
+    "updatedAt": "2026-05-12T16:20:00.000Z",
+    "publishedAt": "2026-05-12T16:20:00.000Z",
+    "seo": {
+      "title": "NABH Cashless Hospital Discharge SLAs | TrustValue Healthcare",
+      "description": "Understand statutory TPA turnaround times and cashless pre-authorization rights in accredited hospital networks.",
+      "focusKeyword": "Cashless Hospitalization",
+      "keywords": ["NABH", "Cashless Mediclaim", "TPA Settlement", "Health Insurance", "Hospital Discharge"],
+      "schemaType": "FAQPage"
+    }
+  }
+]

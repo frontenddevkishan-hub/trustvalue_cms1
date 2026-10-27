@@ -1,0 +1,108 @@
+[
+  {
+    "slug": "tata-medicare-premier",
+    "name": "Tata MediCare Premier",
+    "sector": "insurance",
+    "provider": "tata-aig-general",
+    "primaryCategory": "health/individual-health",
+    "status": "published",
+    "lastVerified": "2026-10-27",
+    "summary": "Comprehensive health protection plan with zero co-pay.",
+    "attributes": {
+      "premium": "₹ 800–2,200 / month",
+      "sum_assured": "₹ 10 lakh – 1 crore"
+    },
+    "variants": []
+  },
+  {
+    "slug": "click-2-protect-supreme",
+    "provider": "hdfc-life",
+    "name": "Click 2 Protect Supreme",
+    "primaryCategory": "life/term-insurance",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample term plan used to demonstrate the plan template.",
+    "attributes": {
+      "premium": "₹ 600–1,800 / month (sample)",
+      "sum_assured": "₹ 50 lakh – 10 crore (sample)",
+      "claim_settlement_ratio": "n/a",
+      "waiting_period": "None",
+      "entry_age": "18–65 years",
+      "policy_term": "Up to 40 years",
+      "features": [
+        "Return of premium option",
+        "Critical illness rider"
+      ],
+      "exclusions": [
+        "Suicide within first year"
+      ]
+    },
+    "variants": [
+      {
+        "slug": "life-option",
+        "name": "Life option",
+        "attributes": {
+          "premium": "₹ 600 / month (sample)"
+        }
+      },
+      {
+        "slug": "life-plus",
+        "name": "Life plus",
+        "attributes": {
+          "premium": "₹ 900 / month (sample)"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I add riders?",
+        "answer": "Yes, riders can be added at purchase (sample answer)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "source": "Expert",
+        "body": "Sample expert review.",
+        "date": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "slug": "smart-secure-plus",
+    "provider": "max-life",
+    "name": "Smart Secure Plus",
+    "primaryCategory": "life/term-insurance",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Second sample term plan so the compare page has two offerings.",
+    "attributes": {
+      "premium": "₹ 550–1,700 / month (sample)",
+      "sum_assured": "₹ 50 lakh – 5 crore (sample)",
+      "claim_settlement_ratio": "n/a",
+      "waiting_period": "None",
+      "entry_age": "18–60 years",
+      "policy_term": "Up to 67 years",
+      "features": [
+        "Terminal illness cover"
+      ],
+      "exclusions": [
+        "Suicide within first year"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ]
+  }
+]

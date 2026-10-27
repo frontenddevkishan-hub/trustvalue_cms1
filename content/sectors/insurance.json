@@ -1,0 +1,166 @@
+{
+  "slug": "insurance",
+  "name": "Insurance",
+  "icon": "🛡️",
+  "description": "Compare life, health and general insurance plans.",
+  "nav": {
+    "providers": "Insurers",
+    "categories": "Plan Categories"
+  },
+  "labels": {
+    "provider": "Insurer",
+    "providers": "Insurers",
+    "offering": "Plan",
+    "offerings": "Plans",
+    "variant": "Plan variant",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "plan",
+  "location": "none",
+  "features": {
+    "reviews": true,
+    "compare": true,
+    "calculator": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 8
+  },
+  "watch": "Premium depends on age and cover, so show a range and a calculator, not a fixed price.",
+  "attributes": [
+    {
+      "key": "premium",
+      "label": "Premium",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹/yr"
+    },
+    {
+      "key": "sum_assured",
+      "label": "Sum assured",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "claim_settlement_ratio",
+      "label": "Claim settlement ratio",
+      "type": "percent",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "waiting_period",
+      "label": "Waiting period",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "entry_age",
+      "label": "Entry age",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "policy_term",
+      "label": "Policy term",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "features",
+      "label": "Key features",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "exclusions",
+      "label": "Exclusions",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "life",
+      "name": "Life",
+      "children": [
+        {
+          "slug": "term-insurance",
+          "name": "Term insurance",
+          "faqs": [
+            {
+              "question": "What is term insurance?",
+              "answer": "A pure protection plan that pays the sum assured to nominees if the insured dies during the term."
+            }
+          ]
+        },
+        {
+          "slug": "savings-plans",
+          "name": "Savings plans"
+        },
+        {
+          "slug": "ulip",
+          "name": "ULIP"
+        },
+        {
+          "slug": "pension-plans",
+          "name": "Pension plans"
+        }
+      ]
+    },
+    {
+      "slug": "health",
+      "name": "Health",
+      "children": [
+        {
+          "slug": "individual-health",
+          "name": "Individual health"
+        },
+        {
+          "slug": "family-floater",
+          "name": "Family floater"
+        },
+        {
+          "slug": "senior-citizen-health",
+          "name": "Senior citizen health"
+        },
+        {
+          "slug": "dental-care-plan",
+          "name": "Dental Care Plan",
+          "children": []
+        }
+      ]
+    },
+    {
+      "slug": "general",
+      "name": "General",
+      "children": [
+        {
+          "slug": "motor-insurance",
+          "name": "Motor insurance"
+        },
+        {
+          "slug": "travel-insurance",
+          "name": "Travel insurance"
+        },
+        {
+          "slug": "home-insurance",
+          "name": "Home insurance"
+        }
+      ]
+    }
+  ],
+  "lastEditedBy": "Admin",
+  "lastEditedAt": "2026-10-27T16:56:00.700Z"
+}

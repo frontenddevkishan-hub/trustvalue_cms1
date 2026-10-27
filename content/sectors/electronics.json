@@ -1,0 +1,132 @@
+{
+  "slug": "electronics",
+  "name": "Consumer Electronics",
+  "icon": "📱",
+  "description": "Phones, laptops and appliances with full spec compare.",
+  "nav": {
+    "providers": "Tech Brands",
+    "categories": "Smartphones & Laptops"
+  },
+  "labels": {
+    "provider": "Brand",
+    "providers": "Brands",
+    "offering": "Model",
+    "offerings": "Models",
+    "variant": "Variant",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "spec",
+  "location": "none",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "The textbook case. Build compare pages here first.",
+  "attributes": [
+    {
+      "key": "display",
+      "label": "Display",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "processor",
+      "label": "Processor",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "ram",
+      "label": "RAM",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "storage",
+      "label": "Storage",
+      "type": "text",
+      "comparable": true,
+      "filterable": true
+    },
+    {
+      "key": "battery",
+      "label": "Battery",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "price",
+      "label": "Price",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "phones",
+      "name": "Phones",
+      "children": [
+        {
+          "slug": "android-phones",
+          "name": "Android phones"
+        },
+        {
+          "slug": "iphones",
+          "name": "iPhones"
+        }
+      ]
+    },
+    {
+      "slug": "laptops",
+      "name": "Laptops",
+      "children": [
+        {
+          "slug": "gaming-laptops",
+          "name": "Gaming laptops"
+        },
+        {
+          "slug": "business-laptops",
+          "name": "Business laptops"
+        }
+      ]
+    },
+    {
+      "slug": "appliances",
+      "name": "Appliances",
+      "children": [
+        {
+          "slug": "air-conditioners",
+          "name": "Air conditioners"
+        },
+        {
+          "slug": "refrigerators",
+          "name": "Refrigerators"
+        },
+        {
+          "slug": "televisions",
+          "name": "Televisions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "providers": [
+    { "sector": "insurance", "pair": "hdfc-life-vs-max-life" }
+  ],
+  "offerings": [
+    { "sector": "insurance", "category": "term-insurance", "pair": "click-2-protect-supreme-vs-smart-secure-plus" }
+  ]
+}

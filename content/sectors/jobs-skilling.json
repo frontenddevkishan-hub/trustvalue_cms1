@@ -1,0 +1,121 @@
+{
+  "slug": "jobs-skilling",
+  "name": "Jobs & Skilling",
+  "icon": "💼",
+  "description": "Portals, certifications and skilling programs.",
+  "nav": {
+    "providers": "Job Portals",
+    "categories": "Certifications"
+  },
+  "labels": {
+    "provider": "Portal or certifying body",
+    "providers": "Portals & certifying bodies",
+    "offering": "Plan, certification or course",
+    "offerings": "Programs",
+    "variant": "Level",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "listing",
+  "location": "none",
+  "features": {
+    "reviews": true,
+    "compare": false
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Do not model individual job postings. They expire daily and create thin pages. Model portals, certifications and courses.",
+  "attributes": [
+    {
+      "key": "fees",
+      "label": "Fees",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "validity",
+      "label": "Validity",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "recognition",
+      "label": "Recognition",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "placement_support",
+      "label": "Placement support",
+      "type": "boolean",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "duration",
+      "label": "Duration",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "mode",
+      "label": "Mode",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "job-portals",
+      "name": "Job portals",
+      "children": [
+        {
+          "slug": "fresher-portals",
+          "name": "Fresher portals"
+        },
+        {
+          "slug": "senior-portals",
+          "name": "Senior portals"
+        }
+      ]
+    },
+    {
+      "slug": "certifications",
+      "name": "Certifications",
+      "children": [
+        {
+          "slug": "it-certifications",
+          "name": "IT certifications"
+        },
+        {
+          "slug": "finance-certifications",
+          "name": "Finance certifications"
+        }
+      ]
+    },
+    {
+      "slug": "skilling",
+      "name": "Skilling",
+      "children": [
+        {
+          "slug": "government-skilling",
+          "name": "Government skilling"
+        },
+        {
+          "slug": "private-skilling",
+          "name": "Private skilling"
+        }
+      ]
+    }
+  ]
+}

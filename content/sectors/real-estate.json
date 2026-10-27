@@ -1,0 +1,120 @@
+{
+  "slug": "real-estate",
+  "name": "Real Estate",
+  "icon": "🏢",
+  "description": "Projects and properties by city.",
+  "nav": {
+    "providers": "Builders & RERA",
+    "categories": "Property Types"
+  },
+  "labels": {
+    "provider": "Builder or agency",
+    "providers": "Builders & agencies",
+    "offering": "Project or property",
+    "offerings": "Projects",
+    "variant": "Configuration",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "listing",
+  "location": "required",
+  "features": {
+    "reviews": true,
+    "compare": false
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Location is the primary key. Always route through /in/[city]. Verify the RERA number before indexing.",
+  "attributes": [
+    {
+      "key": "price_range",
+      "label": "Price range",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "configuration",
+      "label": "Configuration",
+      "type": "text",
+      "comparable": true,
+      "filterable": true
+    },
+    {
+      "key": "possession_date",
+      "label": "Possession date",
+      "type": "date",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "rera_number",
+      "label": "RERA number",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "amenities",
+      "label": "Amenities",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "locality",
+      "label": "Locality",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "buy",
+      "name": "Buy",
+      "children": [
+        {
+          "slug": "apartments",
+          "name": "Apartments"
+        },
+        {
+          "slug": "plots",
+          "name": "Plots"
+        }
+      ]
+    },
+    {
+      "slug": "rent",
+      "name": "Rent",
+      "children": [
+        {
+          "slug": "flats-for-rent",
+          "name": "Flats for rent"
+        },
+        {
+          "slug": "pg",
+          "name": "PG"
+        }
+      ]
+    },
+    {
+      "slug": "commercial",
+      "name": "Commercial",
+      "children": [
+        {
+          "slug": "office-space",
+          "name": "Office space"
+        },
+        {
+          "slug": "shops",
+          "name": "Shops"
+        }
+      ]
+    }
+  ]
+}

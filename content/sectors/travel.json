@@ -1,0 +1,120 @@
+{
+  "slug": "travel",
+  "name": "Travel & Transit",
+  "icon": "✈️",
+  "description": "Flights, trains and hotels.",
+  "nav": {
+    "providers": "Airlines & Hotels",
+    "categories": "Flight Routes"
+  },
+  "labels": {
+    "provider": "Airline, railway or hotel chain",
+    "providers": "Airlines, railways & hotel chains",
+    "offering": "Route or property",
+    "offerings": "Routes & properties",
+    "variant": "Fare class",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "listing",
+  "location": "optional",
+  "features": {
+    "reviews": true,
+    "compare": false
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Live fares change by the minute. Show typical ranges and link out for live prices.",
+  "attributes": [
+    {
+      "key": "route",
+      "label": "Route",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "duration",
+      "label": "Duration",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "price_range",
+      "label": "Typical price range",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "amenities",
+      "label": "Amenities",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "cancellation_policy",
+      "label": "Cancellation policy",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "booking_link",
+      "label": "Booking link",
+      "type": "text",
+      "comparable": false,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "flights",
+      "name": "Flights",
+      "children": [
+        {
+          "slug": "domestic-flights",
+          "name": "Domestic flights"
+        },
+        {
+          "slug": "international-flights",
+          "name": "International flights"
+        }
+      ]
+    },
+    {
+      "slug": "trains",
+      "name": "Trains",
+      "children": [
+        {
+          "slug": "train-routes",
+          "name": "Train routes"
+        }
+      ]
+    },
+    {
+      "slug": "hotels",
+      "name": "Hotels",
+      "children": [
+        {
+          "slug": "city-hotels",
+          "name": "City hotels"
+        },
+        {
+          "slug": "budget-hotels",
+          "name": "Budget hotels"
+        },
+        {
+          "slug": "luxury-hotels",
+          "name": "Luxury hotels"
+        }
+      ]
+    }
+  ]
+}

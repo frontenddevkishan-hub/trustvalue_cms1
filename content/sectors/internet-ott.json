@@ -1,0 +1,103 @@
+{
+  "slug": "internet-ott",
+  "name": "Internet & OTT",
+  "icon": "🎬",
+  "description": "Streaming and data subscriptions.",
+  "nav": {
+    "providers": "Streaming Platforms",
+    "categories": "Subscription Plans"
+  },
+  "labels": {
+    "provider": "Platform",
+    "providers": "Platforms",
+    "offering": "Subscription plan",
+    "offerings": "Subscription plans",
+    "variant": "Tier",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "plan",
+  "location": "none",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Bundle plans from telecom operators belong in telecom with a link here.",
+  "attributes": [
+    {
+      "key": "price_per_month",
+      "label": "Price per month",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "screens",
+      "label": "Screens",
+      "type": "number",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "quality",
+      "label": "Video quality",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "library",
+      "label": "Content library",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "ad_tier",
+      "label": "Ad-supported tier",
+      "type": "boolean",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "downloads",
+      "label": "Offline downloads",
+      "type": "boolean",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "streaming",
+      "name": "Streaming",
+      "children": [
+        {
+          "slug": "video-streaming",
+          "name": "Video streaming"
+        },
+        {
+          "slug": "music-streaming",
+          "name": "Music streaming"
+        }
+      ]
+    },
+    {
+      "slug": "data",
+      "name": "Data",
+      "children": [
+        {
+          "slug": "data-add-on-packs",
+          "name": "Data add-on packs"
+        }
+      ]
+    }
+  ]
+}

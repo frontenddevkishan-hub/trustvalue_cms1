@@ -1,0 +1,137 @@
+{
+  "slug": "banking",
+  "name": "Banking & Loans",
+  "icon": "🏦",
+  "description": "Accounts, cards and loans from banks and NBFCs.",
+  "nav": {
+    "providers": "Banks & NBFCs",
+    "categories": "Loans & Cards"
+  },
+  "labels": {
+    "provider": "Bank or NBFC",
+    "providers": "Banks & NBFCs",
+    "offering": "Product",
+    "offerings": "Products",
+    "variant": "Product variant",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "plan",
+  "location": "optional",
+  "features": {
+    "reviews": true,
+    "compare": true,
+    "calculator": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Rates change often. Store a lastVerified date and revalidate frequently.",
+  "attributes": [
+    {
+      "key": "interest_rate",
+      "label": "Interest rate",
+      "type": "percent",
+      "comparable": true,
+      "filterable": true
+    },
+    {
+      "key": "processing_fee",
+      "label": "Processing fee",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "min_balance",
+      "label": "Minimum balance",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "tenure",
+      "label": "Tenure",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "eligibility",
+      "label": "Eligibility",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "max_amount",
+      "label": "Maximum amount",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "accounts",
+      "name": "Accounts",
+      "children": [
+        {
+          "slug": "savings-accounts",
+          "name": "Savings accounts"
+        },
+        {
+          "slug": "salary-accounts",
+          "name": "Salary accounts"
+        },
+        {
+          "slug": "current-accounts",
+          "name": "Current accounts"
+        }
+      ]
+    },
+    {
+      "slug": "cards",
+      "name": "Cards",
+      "children": [
+        {
+          "slug": "credit-cards",
+          "name": "Credit cards"
+        },
+        {
+          "slug": "debit-cards",
+          "name": "Debit cards"
+        }
+      ]
+    },
+    {
+      "slug": "loans",
+      "name": "Loans",
+      "children": [
+        {
+          "slug": "home-loans",
+          "name": "Home loans",
+          "faqs": [
+            {
+              "question": "What affects my home loan interest rate?",
+              "answer": "Credit score, loan amount, tenure, income stability and the lender's benchmark rate."
+            }
+          ]
+        },
+        {
+          "slug": "personal-loans",
+          "name": "Personal loans"
+        },
+        {
+          "slug": "car-loans",
+          "name": "Car loans"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "food",
+  "name": "Food & Grocery",
+  "icon": "🥛",
+  "description": "Packaged food, grocery apps and restaurants.",
+  "nav": {
+    "providers": "Food Producers",
+    "categories": "Packaged & Fresh"
+  },
+  "labels": {
+    "provider": "Maker, app or chain",
+    "providers": "Makers, apps & chains",
+    "offering": "SKU or outlet",
+    "offerings": "Products & outlets",
+    "variant": "Pack",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "spec",
+  "location": "optional",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Two templates in one sector. Packaged food uses spec. Restaurants use place under the location path.",
+  "attributes": [
+    {
+      "key": "ingredients",
+      "label": "Ingredients",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "nutrition",
+      "label": "Nutrition",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "pack_size",
+      "label": "Pack size",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "shelf_life",
+      "label": "Shelf life",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "mrp",
+      "label": "MRP",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "diet",
+      "label": "Diet",
+      "type": "text",
+      "comparable": true,
+      "filterable": true
+    }
+  ],
+  "categories": [
+    {
+      "slug": "packaged-food",
+      "name": "Packaged food",
+      "children": [
+        {
+          "slug": "snacks",
+          "name": "Snacks"
+        },
+        {
+          "slug": "staples",
+          "name": "Staples"
+        }
+      ]
+    },
+    {
+      "slug": "quick-commerce",
+      "name": "Quick commerce",
+      "children": [
+        {
+          "slug": "grocery-apps",
+          "name": "Grocery apps"
+        }
+      ]
+    },
+    {
+      "slug": "restaurants",
+      "name": "Restaurants",
+      "template": "place",
+      "location": "required",
+      "attributes": [
+        {
+          "key": "cuisine",
+          "label": "Cuisine",
+          "type": "text",
+          "comparable": true,
+          "filterable": true
+        },
+        {
+          "key": "price_for_two",
+          "label": "Price for two",
+          "type": "currency",
+          "comparable": true,
+          "filterable": false,
+          "unit": "₹"
+        },
+        {
+          "key": "address",
+          "label": "Address",
+          "type": "text",
+          "comparable": false,
+          "filterable": false
+        },
+        {
+          "key": "timings",
+          "label": "Timings",
+          "type": "text",
+          "comparable": true,
+          "filterable": false
+        },
+        {
+          "key": "veg_only",
+          "label": "Pure veg",
+          "type": "boolean",
+          "comparable": true,
+          "filterable": true
+        },
+        {
+          "key": "rating_source",
+          "label": "Rating source",
+          "type": "text",
+          "comparable": true,
+          "filterable": false
+        }
+      ],
+      "children": [
+        {
+          "slug": "north-indian",
+          "name": "North Indian"
+        },
+        {
+          "slug": "south-indian",
+          "name": "South Indian"
+        },
+        {
+          "slug": "chinese",
+          "name": "Chinese"
+        }
+      ]
+    }
+  ]
+}

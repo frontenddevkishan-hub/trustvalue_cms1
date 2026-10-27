@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "regular-home-loan",
+    "provider": "sbi",
+    "name": "Regular Home Loan",
+    "primaryCategory": "loans/home-loans",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample home loan.",
+    "cities": [
+      "mumbai",
+      "pune"
+    ],
+    "attributes": {
+      "interest_rate": "8.5%",
+      "processing_fee": "Sample 0.35%",
+      "min_balance": "n/a",
+      "tenure": "Up to 30 years",
+      "eligibility": [
+        "Salaried or self-employed",
+        "Age 21–65"
+      ],
+      "max_amount": "₹ 5 crore (sample)"
+    },
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "pm-awas-yojana",
+    "provider": "ministry-of-rural-development",
+    "name": "PM Awas Yojana",
+    "primaryCategory": "schemes/housing-schemes",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample housing scheme.",
+    "attributes": {
+      "eligibility": [
+        "Sample eligibility rule"
+      ],
+      "benefits": [
+        "Financial assistance for housing (sample)"
+      ],
+      "documents_required": [
+        "Aadhaar",
+        "Income proof"
+      ],
+      "steps": [
+        "Check eligibility",
+        "Apply on official portal",
+        "Verification"
+      ],
+      "deadline": "Check official site",
+      "official_link": "https://example.com/official"
+    },
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ]
+  }
+]

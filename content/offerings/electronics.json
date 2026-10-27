@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "galaxy-s24",
+    "provider": "samsung",
+    "name": "Galaxy S24",
+    "primaryCategory": "phones/android-phones",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample flagship phone.",
+    "attributes": {
+      "display": "6.2 inch AMOLED",
+      "processor": "Sample chipset",
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "battery": "4000 mAh",
+      "price": "₹ 75,000 (sample)",
+      "warranty": "1 year"
+    },
+    "variants": [
+      {
+        "slug": "256gb",
+        "name": "256 GB",
+        "attributes": {
+          "storage": "256 GB",
+          "price": "₹ 82,000 (sample)"
+        }
+      }
+    ],
+    "pros": [
+      "Bright display",
+      "Compact size"
+    ],
+    "cons": [
+      "Modest battery"
+    ],
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ]
+  }
+]

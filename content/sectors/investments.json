@@ -1,0 +1,129 @@
+{
+  "slug": "investments",
+  "name": "Investments",
+  "icon": "📈",
+  "description": "Mutual funds, stocks and fixed-income options.",
+  "nav": {
+    "providers": "AMCs & Brokers",
+    "categories": "Mutual Funds & Stocks"
+  },
+  "labels": {
+    "provider": "AMC, broker or bank",
+    "providers": "AMCs & brokers",
+    "offering": "Fund or scheme",
+    "offerings": "Funds & schemes",
+    "variant": "Plan option",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "plan",
+  "location": "none",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "A stock is a company, not a branded product. Model each listed stock as an offering whose provider is the issuing company.",
+  "attributes": [
+    {
+      "key": "returns_3y",
+      "label": "3-year returns",
+      "type": "percent",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "expense_ratio",
+      "label": "Expense ratio",
+      "type": "percent",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "risk_level",
+      "label": "Risk level",
+      "type": "text",
+      "comparable": true,
+      "filterable": true
+    },
+    {
+      "key": "min_investment",
+      "label": "Minimum investment",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "lock_in",
+      "label": "Lock-in",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "benchmark",
+      "label": "Benchmark",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "mutual-funds",
+      "name": "Mutual funds",
+      "children": [
+        {
+          "slug": "equity-funds",
+          "name": "Equity funds"
+        },
+        {
+          "slug": "debt-funds",
+          "name": "Debt funds"
+        },
+        {
+          "slug": "hybrid-funds",
+          "name": "Hybrid funds"
+        }
+      ]
+    },
+    {
+      "slug": "stocks",
+      "name": "Stocks",
+      "children": [
+        {
+          "slug": "large-cap",
+          "name": "Large cap"
+        },
+        {
+          "slug": "mid-cap",
+          "name": "Mid cap"
+        }
+      ]
+    },
+    {
+      "slug": "fixed-income",
+      "name": "Fixed income",
+      "children": [
+        {
+          "slug": "fixed-deposits",
+          "name": "Fixed deposits"
+        },
+        {
+          "slug": "nps",
+          "name": "NPS"
+        },
+        {
+          "slug": "bonds",
+          "name": "Bonds"
+        }
+      ]
+    }
+  ]
+}

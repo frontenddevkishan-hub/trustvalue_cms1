@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "nexon",
+    "provider": "tata-motors",
+    "name": "Nexon",
+    "primaryCategory": "cars/suv",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample compact SUV.",
+    "attributes": {
+      "ex_showroom_price": "₹ 8–15 lakh (sample)",
+      "engine": "1.2L turbo petrol",
+      "mileage": "17 kmpl (sample)",
+      "safety_rating": "5 star (sample)",
+      "fuel_type": "Petrol, Diesel, EV",
+      "seating": 5
+    },
+    "variants": [
+      {
+        "slug": "xz-plus",
+        "name": "XZ+",
+        "attributes": {
+          "ex_showroom_price": "₹ 12 lakh (sample)",
+          "engine": "1.2L turbo petrol"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "slug": "telecom",
+  "name": "Telecom",
+  "icon": "📡",
+  "description": "Mobile and broadband plans from operators.",
+  "nav": {
+    "providers": "Telecom Operators",
+    "categories": "Prepaid & Fiber"
+  },
+  "labels": {
+    "provider": "Operator",
+    "providers": "Operators",
+    "offering": "Plan",
+    "offerings": "Plans",
+    "variant": "Plan variant",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "plan",
+  "location": "optional",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "The tree is thin. That is fine, and the depth setting allows it.",
+  "attributes": [
+    {
+      "key": "price",
+      "label": "Price",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "validity",
+      "label": "Validity",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "data",
+      "label": "Data",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "calls",
+      "label": "Calls",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "ott_benefits",
+      "label": "OTT benefits",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "mobile",
+      "name": "Mobile",
+      "children": [
+        {
+          "slug": "prepaid",
+          "name": "Prepaid"
+        },
+        {
+          "slug": "postpaid",
+          "name": "Postpaid"
+        }
+      ]
+    },
+    {
+      "slug": "broadband",
+      "name": "Broadband",
+      "children": [
+        {
+          "slug": "fibre",
+          "name": "Fibre"
+        },
+        {
+          "slug": "wireless-broadband",
+          "name": "Wireless broadband"
+        }
+      ]
+    }
+  ]
+}

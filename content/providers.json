@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "tata-aig-general",
+    "name": "Tata AIG General",
+    "type": "Insurer",
+    "parentGroup": "Tata Group",
+    "website": "https://example.com/tata-aig",
+    "sectors": {
+      "insurance": {
+        "description": "Comprehensive general and health insurer.",
+        "registration": "IRDAI-REG-108"
+      }
+    }
+  },
+  {
+    "slug": "hdfc-life",
+    "name": "HDFC Life",
+    "type": "Insurer",
+    "parentGroup": "HDFC",
+    "website": "https://example.com/hdfc-life",
+    "sectors": {
+      "insurance": {
+        "description": "Sample profile: life insurer offering term, savings and pension plans.",
+        "registration": "SAMPLE-REG-0001",
+        "trust": {
+          "Sample claims metric": "n/a"
+        }
+      }
+    }
+  },
+  {
+    "slug": "max-life",
+    "name": "Max Life",
+    "type": "Insurer",
+    "website": "https://example.com/max-life",
+    "sectors": {
+      "insurance": {
+        "description": "Sample profile: life insurer offering term and savings plans.",
+        "registration": "SAMPLE-REG-0002",
+        "trust": {
+          "Sample claims metric": "n/a"
+        }
+      }
+    }
+  },
+  {
+    "slug": "sbi",
+    "name": "State Bank of India",
+    "type": "Bank",
+    "website": "https://example.com/sbi",
+    "sectors": {
+      "banking": {
+        "description": "Sample profile: public sector bank with a pan-India branch network.",
+        "registration": "SAMPLE-RBI-0001",
+        "trust": {
+          "Branches": "Sample"
+        }
+      },
+      "investments": {
+        "description": "Sample profile: fixed deposits and bonds from a bank provider.",
+        "registration": "SAMPLE-RBI-0001"
+      }
+    }
+  },
+  {
+    "slug": "lodha",
+    "name": "Lodha",
+    "type": "Builder",
+    "website": "https://example.com/lodha",
+    "sectors": {
+      "real-estate": {
+        "description": "Sample profile: residential and commercial developer.",
+        "registration": "SAMPLE-RERA-0001"
+      }
+    }
+  },
+  {
+    "slug": "apollo",
+    "name": "Apollo Hospitals",
+    "type": "Hospital chain",
+    "website": "https://example.com/apollo",
+    "sectors": {
+      "healthcare": {
+        "description": "Sample profile: multi-speciality hospital chain.",
+        "registration": "SAMPLE-NABH-0001"
+      }
+    }
+  },
+  {
+    "slug": "tata-motors",
+    "name": "Tata Motors",
+    "type": "Manufacturer",
+    "website": "https://example.com/tata-motors",
+    "sectors": {
+      "automobiles": {
+        "description": "Sample profile: passenger and commercial vehicle maker."
+      }
+    }
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "type": "Brand",
+    "website": "https://example.com/samsung",
+    "sectors": {
+      "electronics": {
+        "description": "Sample profile: consumer electronics brand."
+      }
+    }
+  },
+  {
+    "slug": "sun-pharma",
+    "name": "Sun Pharma",
+    "type": "Manufacturer",
+    "website": "https://example.com/sun-pharma",
+    "sectors": {
+      "pharma": {
+        "description": "Sample profile: pharmaceutical manufacturer.",
+        "registration": "SAMPLE-GMP-0001"
+      }
+    }
+  },
+  {
+    "slug": "ministry-of-rural-development",
+    "name": "Ministry of Rural Development",
+    "type": "Ministry",
+    "website": "https://example.com/mord",
+    "sectors": {
+      "government": {
+        "description": "Sample profile: central ministry responsible for rural schemes."
+      }
+    }
+  }
+]

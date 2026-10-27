@@ -1,0 +1,79 @@
+[
+  {
+    "id": "aud_1793120377357",
+    "timestamp": "2026-10-27T16:59:37.356Z",
+    "userId": "active_user",
+    "userName": "Admin",
+    "role": "admin",
+    "action": "create",
+    "entityType": "offering",
+    "entityId": "tata-medicare-premier",
+    "details": "Created plan/offering \"Tata MediCare Premier\" (tata-medicare-premier) under insurance"
+  },
+  {
+    "id": "aud_1793120338186",
+    "timestamp": "2026-10-27T16:58:58.185Z",
+    "userId": "active_user",
+    "userName": "Admin",
+    "role": "admin",
+    "action": "create",
+    "entityType": "provider",
+    "entityId": "tata-aig-general",
+    "details": "Created provider brand \"Tata AIG General\" (tata-aig-general)"
+  },
+  {
+    "id": "aud_1793120160701",
+    "timestamp": "2026-10-27T16:56:00.701Z",
+    "userId": "active_user",
+    "userName": "Admin",
+    "role": "admin",
+    "action": "create",
+    "entityType": "category",
+    "entityId": "insurance/dental-care-plan",
+    "details": "Added category \"Dental Care Plan\" to sector Insurance"
+  },
+  {
+    "id": "aud_1793120160700",
+    "timestamp": "2026-10-27T16:56:00.700Z",
+    "userId": "active_user",
+    "userName": "Admin",
+    "role": "admin",
+    "action": "update",
+    "entityType": "sector",
+    "entityId": "insurance",
+    "details": "Updated sector Insurance (insurance) attributes & SEO"
+  },
+  {
+    "id": "aud_1793114817855",
+    "timestamp": "2026-10-27T15:26:57.855Z",
+    "userId": "active_user",
+    "userName": "Admin",
+    "role": "admin",
+    "action": "update",
+    "entityType": "sector",
+    "entityId": "fintech-test",
+    "details": "Updated sector Fintech Test (fintech-test) attributes & SEO"
+  },
+  {
+    "id": "aud_seed_1",
+    "timestamp": "2026-10-27T11:26:57.855Z",
+    "userId": "usr_sa_001",
+    "userName": "Vikram Malhotra",
+    "role": "superadmin",
+    "action": "auth",
+    "entityType": "system",
+    "entityId": "cms_core",
+    "details": "CMS Initialized on Subdomain Architecture"
+  },
+  {
+    "id": "aud_seed_2",
+    "timestamp": "2026-10-27T13:26:57.855Z",
+    "userId": "usr_ad_002",
+    "userName": "Ananya Deshmukh",
+    "role": "admin",
+    "action": "publish",
+    "entityType": "blog",
+    "entityId": "irdai-3-year-incontestability-rule-explained",
+    "details": "Approved & Published legal circular breakdown"
+  }
+]

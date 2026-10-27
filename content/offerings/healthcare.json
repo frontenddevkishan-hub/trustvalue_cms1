@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "navi-mumbai-hospital",
+    "provider": "apollo",
+    "name": "Navi Mumbai Hospital",
+    "primaryCategory": "hospitals/multi-speciality",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample hospital branch.",
+    "cities": [
+      "navi-mumbai"
+    ],
+    "place": {
+      "address": "Sample address",
+      "locality": "Belapur",
+      "city": "navi-mumbai",
+      "state": "Maharashtra"
+    },
+    "attributes": {
+      "specialities": [
+        "Cardiology",
+        "Orthopaedics",
+        "Oncology"
+      ],
+      "accreditations": [
+        "Sample accreditation"
+      ],
+      "timings": "Open 24 hours",
+      "emergency": true,
+      "beds": 300,
+      "package_price": "₹ 3,500 (sample)"
+    },
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "source": "User",
+        "body": "Sample user review.",
+        "date": "2026-10-21"
+      }
+    ]
+  }
+]

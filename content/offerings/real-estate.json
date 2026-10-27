@@ -1,0 +1,40 @@
+[
+  {
+    "slug": "palava-phase-2",
+    "provider": "lodha",
+    "name": "Palava Phase 2",
+    "primaryCategory": "buy/apartments",
+    "status": "published",
+    "lastVerified": "2026-10-21",
+    "summary": "Sample township project.",
+    "cities": [
+      "mumbai",
+      "thane"
+    ],
+    "place": {
+      "address": "Sample address",
+      "locality": "Dombivli",
+      "city": "thane",
+      "state": "Maharashtra"
+    },
+    "attributes": {
+      "price_range": "₹ 60 lakh – 1.2 crore (sample)",
+      "configuration": "1, 2 BHK",
+      "possession_date": "2028-12-31",
+      "rera_number": "SAMPLE-RERA-1234",
+      "amenities": [
+        "Clubhouse",
+        "Garden",
+        "Gym"
+      ],
+      "locality": "Dombivli"
+    },
+    "sources": [
+      {
+        "title": "Official source (sample)",
+        "url": "https://example.com/source",
+        "accessedOn": "2026-10-21"
+      }
+    ]
+  }
+]

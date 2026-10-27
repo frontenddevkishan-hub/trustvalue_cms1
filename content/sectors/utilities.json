@@ -1,0 +1,121 @@
+{
+  "slug": "utilities",
+  "name": "Home & Utilities",
+  "icon": "⚡",
+  "description": "Electricity, gas and solar by state or city.",
+  "nav": {
+    "providers": "Electricity Discoms",
+    "categories": "Tariff Slabs"
+  },
+  "labels": {
+    "provider": "Utility provider",
+    "providers": "Utility providers",
+    "offering": "Tariff or plan",
+    "offerings": "Tariffs & plans",
+    "variant": "Connection type",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "plan",
+  "location": "required",
+  "features": {
+    "reviews": true,
+    "compare": false
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Providers are regional monopolies, so every page is scoped by state or city.",
+  "attributes": [
+    {
+      "key": "tariff_slabs",
+      "label": "Tariff slabs",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "connection_charges",
+      "label": "Connection charges",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "service_area",
+      "label": "Service area",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "subsidy",
+      "label": "Subsidy",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "billing_cycle",
+      "label": "Billing cycle",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "helpline",
+      "label": "Helpline",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "electricity",
+      "name": "Electricity",
+      "children": [
+        {
+          "slug": "discoms",
+          "name": "Discoms"
+        },
+        {
+          "slug": "tariffs",
+          "name": "Tariffs"
+        }
+      ]
+    },
+    {
+      "slug": "gas",
+      "name": "Gas",
+      "children": [
+        {
+          "slug": "png",
+          "name": "PNG"
+        },
+        {
+          "slug": "lpg",
+          "name": "LPG"
+        }
+      ]
+    },
+    {
+      "slug": "solar",
+      "name": "Solar",
+      "children": [
+        {
+          "slug": "rooftop-solar",
+          "name": "Rooftop solar"
+        },
+        {
+          "slug": "solar-pumps",
+          "name": "Solar pumps"
+        }
+      ]
+    }
+  ]
+}

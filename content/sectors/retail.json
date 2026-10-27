@@ -1,0 +1,117 @@
+{
+  "slug": "retail",
+  "name": "Retail & E-commerce",
+  "icon": "🛍️",
+  "description": "Fashion, personal care and marketplaces.",
+  "nav": {
+    "providers": "D2C Brands",
+    "categories": "Personal Care"
+  },
+  "labels": {
+    "provider": "Brand or marketplace",
+    "providers": "Brands & marketplaces",
+    "offering": "SKU",
+    "offerings": "Products",
+    "variant": "Size or colour",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "spec",
+  "location": "none",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "SKU volume is huge. Create pages only for products you can add real value to, and keep the rest out of the index.",
+  "attributes": [
+    {
+      "key": "size",
+      "label": "Size",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "colour",
+      "label": "Colour",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "material",
+      "label": "Material",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "price",
+      "label": "Price",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    },
+    {
+      "key": "ingredients",
+      "label": "Ingredients",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "return_policy",
+      "label": "Return policy",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "fashion",
+      "name": "Fashion",
+      "children": [
+        {
+          "slug": "mens-fashion",
+          "name": "Men's fashion"
+        },
+        {
+          "slug": "womens-fashion",
+          "name": "Women's fashion"
+        }
+      ]
+    },
+    {
+      "slug": "personal-care",
+      "name": "Personal care",
+      "children": [
+        {
+          "slug": "skin-care",
+          "name": "Skin care"
+        },
+        {
+          "slug": "hair-care",
+          "name": "Hair care"
+        }
+      ]
+    },
+    {
+      "slug": "marketplaces",
+      "name": "Marketplaces",
+      "children": [
+        {
+          "slug": "multi-category-marketplaces",
+          "name": "Multi-category marketplaces"
+        }
+      ]
+    }
+  ]
+}

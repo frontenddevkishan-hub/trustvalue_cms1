@@ -1,0 +1,130 @@
+{
+  "slug": "pharma",
+  "name": "Pharma & Pharmacy",
+  "icon": "💊",
+  "description": "Medicines by generic salt, plus pharmacies.",
+  "nav": {
+    "providers": "Drug Makers",
+    "categories": "Generic Salts"
+  },
+  "labels": {
+    "provider": "Manufacturer or pharmacy",
+    "providers": "Manufacturers & pharmacies",
+    "offering": "Medicine or pharmacy",
+    "offerings": "Medicines",
+    "variant": "Pack size",
+    "levels": [
+      "Type",
+      "Therapy area",
+      "Salt"
+    ]
+  },
+  "maxCategoryDepth": 3,
+  "defaultTemplate": "spec",
+  "location": "optional",
+  "features": {
+    "reviews": true,
+    "compare": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Many brands share one generic salt. The salt is a category leaf so all brands of it list together.",
+  "attributes": [
+    {
+      "key": "composition",
+      "label": "Composition",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "uses",
+      "label": "Uses",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "side_effects",
+      "label": "Side effects",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "prescription_required",
+      "label": "Prescription needed",
+      "type": "boolean",
+      "comparable": true,
+      "filterable": true
+    },
+    {
+      "key": "pack_size",
+      "label": "Pack size",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "mrp",
+      "label": "MRP",
+      "type": "currency",
+      "comparable": true,
+      "filterable": false,
+      "unit": "₹"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "medicines",
+      "name": "Medicines",
+      "children": [
+        {
+          "slug": "diabetes",
+          "name": "Diabetes",
+          "children": [
+            {
+              "slug": "metformin",
+              "name": "Metformin"
+            }
+          ]
+        },
+        {
+          "slug": "heart",
+          "name": "Heart",
+          "children": [
+            {
+              "slug": "atorvastatin",
+              "name": "Atorvastatin"
+            }
+          ]
+        },
+        {
+          "slug": "pain",
+          "name": "Pain",
+          "children": [
+            {
+              "slug": "paracetamol",
+              "name": "Paracetamol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pharmacies",
+      "name": "Pharmacies",
+      "children": [
+        {
+          "slug": "online-pharmacies",
+          "name": "Online pharmacies"
+        },
+        {
+          "slug": "pharmacy-chains",
+          "name": "Pharmacy chains"
+        }
+      ]
+    }
+  ]
+}

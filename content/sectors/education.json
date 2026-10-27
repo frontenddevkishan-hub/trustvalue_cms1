@@ -1,0 +1,125 @@
+{
+  "slug": "education",
+  "name": "Education",
+  "icon": "🎓",
+  "description": "Schools, online courses and coaching.",
+  "nav": {
+    "providers": "Institutes & EdTech",
+    "categories": "Degrees & Courses"
+  },
+  "labels": {
+    "provider": "Institute or platform",
+    "providers": "Institutes & platforms",
+    "offering": "School or course",
+    "offerings": "Schools & courses",
+    "variant": "Batch",
+    "levels": [
+      "Segment",
+      "Category"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "listing",
+  "location": "optional",
+  "features": {
+    "reviews": true,
+    "compare": false
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Schools use place, courses use listing. Set the template on the category.",
+  "attributes": [
+    {
+      "key": "fees",
+      "label": "Fees",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "duration",
+      "label": "Duration",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "syllabus",
+      "label": "Syllabus",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "outcomes",
+      "label": "Outcomes",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "accreditation",
+      "label": "Accreditation",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "mode",
+      "label": "Mode",
+      "type": "text",
+      "comparable": true,
+      "filterable": true
+    }
+  ],
+  "categories": [
+    {
+      "slug": "schools",
+      "name": "Schools",
+      "template": "place",
+      "children": [
+        {
+          "slug": "cbse-schools",
+          "name": "CBSE schools"
+        },
+        {
+          "slug": "icse-schools",
+          "name": "ICSE schools"
+        }
+      ]
+    },
+    {
+      "slug": "online-courses",
+      "name": "Online courses",
+      "children": [
+        {
+          "slug": "tech-courses",
+          "name": "Tech courses"
+        },
+        {
+          "slug": "business-courses",
+          "name": "Business courses"
+        }
+      ]
+    },
+    {
+      "slug": "coaching",
+      "name": "Coaching",
+      "children": [
+        {
+          "slug": "jee",
+          "name": "JEE"
+        },
+        {
+          "slug": "neet",
+          "name": "NEET"
+        },
+        {
+          "slug": "upsc",
+          "name": "UPSC"
+        }
+      ]
+    }
+  ]
+}

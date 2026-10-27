@@ -1,0 +1,133 @@
+{
+  "slug": "government",
+  "name": "Government Services",
+  "icon": "🏛️",
+  "description": "Schemes, documents and taxes with official sources.",
+  "nav": {
+    "providers": "Departments",
+    "categories": "Citizen Schemes"
+  },
+  "labels": {
+    "provider": "Ministry or department",
+    "providers": "Ministries & departments",
+    "offering": "Scheme or service",
+    "offerings": "Schemes & services",
+    "variant": "Component",
+    "levels": [
+      "Type",
+      "Audience"
+    ]
+  },
+  "maxCategoryDepth": 2,
+  "defaultTemplate": "scheme",
+  "location": "optional",
+  "features": {
+    "reviews": false,
+    "compare": false,
+    "eligibilityChecker": true
+  },
+  "indexing": {
+    "minFieldsToIndex": 6
+  },
+  "watch": "Always link to the official source and show when it was last verified. Reviews and commercial compare stay off.",
+  "attributes": [
+    {
+      "key": "eligibility",
+      "label": "Eligibility",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "benefits",
+      "label": "Benefits",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "documents_required",
+      "label": "Documents required",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "steps",
+      "label": "Steps to apply",
+      "type": "list",
+      "comparable": false,
+      "filterable": false
+    },
+    {
+      "key": "deadline",
+      "label": "Deadline",
+      "type": "text",
+      "comparable": true,
+      "filterable": false
+    },
+    {
+      "key": "official_link",
+      "label": "Official link",
+      "type": "text",
+      "comparable": false,
+      "filterable": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "schemes",
+      "name": "Schemes",
+      "children": [
+        {
+          "slug": "farmer-schemes",
+          "name": "Farmer schemes"
+        },
+        {
+          "slug": "women-schemes",
+          "name": "Women schemes"
+        },
+        {
+          "slug": "student-schemes",
+          "name": "Student schemes"
+        },
+        {
+          "slug": "housing-schemes",
+          "name": "Housing schemes"
+        }
+      ]
+    },
+    {
+      "slug": "documents",
+      "name": "Documents",
+      "children": [
+        {
+          "slug": "aadhaar",
+          "name": "Aadhaar"
+        },
+        {
+          "slug": "pan-card",
+          "name": "PAN card"
+        },
+        {
+          "slug": "passport",
+          "name": "Passport"
+        }
+      ]
+    },
+    {
+      "slug": "taxes",
+      "name": "Taxes",
+      "children": [
+        {
+          "slug": "income-tax",
+          "name": "Income tax"
+        },
+        {
+          "slug": "gst",
+          "name": "GST"
+        }
+      ]
+    }
+  ]
+}

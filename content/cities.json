@@ -1,0 +1,10 @@
+[
+  { "slug": "mumbai", "name": "Mumbai", "state": "Maharashtra" },
+  { "slug": "thane", "name": "Thane", "state": "Maharashtra" },
+  { "slug": "navi-mumbai", "name": "Navi Mumbai", "state": "Maharashtra" },
+  { "slug": "pune", "name": "Pune", "state": "Maharashtra" },
+  { "slug": "delhi", "name": "Delhi", "state": "Delhi" },
+  { "slug": "bengaluru", "name": "Bengaluru", "state": "Karnataka" },
+  { "slug": "hyderabad", "name": "Hyderabad", "state": "Telangana" },
+  { "slug": "chennai", "name": "Chennai", "state": "Tamil Nadu" }
+]
